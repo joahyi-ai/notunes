@@ -4,11 +4,11 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Use cases", href: "/usecase" },
-  { name: "Blogs", href: "/blogs" },
-  { name: "Pricing", href: "/pricing" },
-  { name: "About", href: "/about" },
+  { name: "What's included", href: "/#features" },
+  { name: "Testimonial", href: "/#testimonial" },
+  //   { name: "Blogs", href: "/blogs" },
+  { name: "Pricing", href: "/#pricing" },
+  { name: "FAQ", href: "/#faq" },
 ];
 
 export default function Header() {
@@ -23,11 +23,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
+            <img className="h-8 w-auto" src="/icon.png" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
