@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Script from "next/script";
 import { Dialog } from "@headlessui/react";
 import {
   ArrowPathIcon,
@@ -14,6 +15,7 @@ import { CheckIcon } from "@heroicons/react/20/solid";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Pricing from "@/components/Pricing";
+import Feature from "@/components/Feature";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -132,6 +134,7 @@ export default function Example() {
 
   return (
     <div className="bg-white">
+      <Script src="https://assets.lemonsqueezy.com/lemon.js" defer></Script>
       {/* Header */}
 
       <Header />
@@ -164,21 +167,22 @@ export default function Example() {
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <a
-                    href="#"
+                    href="https://igtools.lemonsqueezy.com/checkout/buy/c77e8d0a-bd11-4cf7-8368-eb338f7faf26?embed=1&logo=0&discount=0"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Get started{" "}
                     <span aria-hidden="true" className="px-1">
                       &rarr;
                     </span>
-                    $20
+                    $9.9
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
+        {/* Feature */}
+        <Feature />
         {/* Feature section */}
         <div
           className="mx-auto mt-16 max-w-7xl px-6 sm:mt-16 lg:px-8"
@@ -330,14 +334,14 @@ export default function Example() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="https://igtools.lemonsqueezy.com/checkout/buy/c77e8d0a-bd11-4cf7-8368-eb338f7faf26?embed=1&logo=0&discount=0"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started{" "}
                 <span aria-hidden="true" className="px-1">
                   &rarr;
                 </span>
-                $20
+                $9.9
               </a>
             </div>
           </div>

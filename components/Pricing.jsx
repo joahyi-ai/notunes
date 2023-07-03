@@ -52,14 +52,14 @@ export default function Pricing() {
                 </p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
                   <span className="text-5xl font-bold tracking-tight text-gray-900">
-                    $20
+                    $9.9
                   </span>
                   <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">
                     USD
                   </span>
                 </p>
                 <a
-                  href="#"
+                  href="https://igtools.lemonsqueezy.com/checkout/buy/c77e8d0a-bd11-4cf7-8368-eb338f7faf26?embed=1&logo=0&discount=0"
                   className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get access
