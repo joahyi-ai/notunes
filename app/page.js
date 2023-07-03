@@ -167,7 +167,7 @@ export default function Example() {
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <a
-                    href="https://igtools.lemonsqueezy.com/checkout/buy/c77e8d0a-bd11-4cf7-8368-eb338f7faf26?embed=1&logo=0&discount=0"
+                   href="https://igtools.lemonsqueezy.com/checkout/buy/fe67e2c6-bb49-4b84-bb6f-768675fee855?embed=1&media=0&logo=0&discount=0"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Get started{" "}
@@ -334,7 +334,7 @@ export default function Example() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="https://igtools.lemonsqueezy.com/checkout/buy/c77e8d0a-bd11-4cf7-8368-eb338f7faf26?embed=1&logo=0&discount=0"
+               href="https://igtools.lemonsqueezy.com/checkout/buy/fe67e2c6-bb49-4b84-bb6f-768675fee855?embed=1&media=0&logo=0&discount=0"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started{" "}
