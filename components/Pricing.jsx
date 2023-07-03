@@ -59,7 +59,7 @@ export default function Pricing() {
                   </span>
                 </p>
                 <a
-                  href="https://igtools.lemonsqueezy.com/checkout/buy/c77e8d0a-bd11-4cf7-8368-eb338f7faf26?embed=1&logo=0&discount=0"
+                 href="https://igtools.lemonsqueezy.com/checkout/buy/fe67e2c6-bb49-4b84-bb6f-768675fee855?embed=1&media=0&logo=0&discount=0"
                   className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get access
